@@ -4,6 +4,7 @@
   "description": "Small library to generate interception proxies",
   "homepage": "https://github.com/gionkunz/interceptor-js",
   "main": "src/interceptor.js",
+  "browser": "dist/interceptor.min.js",
   "devDependencies": {
     "gulp": "~3.8.7",
     "gulp-concat": "~2.3.4",
