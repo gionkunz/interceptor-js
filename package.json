@@ -1,6 +1,6 @@
 {
   "name": "interceptor-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Small library to generate interception proxies",
   "homepage": "https://github.com/gionkunz/interceptor-js",
   "main": "src/interceptor.js",
@@ -15,6 +15,7 @@
     "gulp-karma": "0.0.4",
     "gulp-jshint": "^1.8.4",
     "gulp-watch": "^0.6.9",
+    "gulp-wrap-umd": "^0.2.1",
     "require-dir": "^0.1.0",
     "vinyl-source-stream": "^0.1.1",
     "vinyl-transform": "0.0.1",
@@ -28,8 +29,7 @@
     "karma-junit-reporter": "^0.2.2",
     "lodash": "^2.4.1",
     "jshint-stylish": "^0.4.0",
-    "del": "^0.1.2",
-    "gulp-wrap-umd": "^0.2.1"
+    "del": "^0.1.2"
   },
   "scripts": {
     "test": "gulp test",
