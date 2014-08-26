@@ -226,8 +226,8 @@ function __interceptor() {
       }
     });
 
-    // As long as we can't observe new properties being added we just return a frozen proxy
-    return /*Object.freeze(*/proxy/*)*/;
+    // As long as we can't observe new properties being added we just return a sealed proxy
+    return Object.seal(proxy);
   }
 
   return {
